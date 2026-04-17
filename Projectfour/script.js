@@ -149,13 +149,13 @@ convertBtn.id = 'convertBtn';
 convertBtn.textContent = 'CONVERT';
 app.appendChild(convertBtn);
 
-// --- Result label ---
+
 const resultLabel = document.createElement('div');
 resultLabel.id = 'resultLabel';
 resultLabel.textContent = 'Result';
 app.appendChild(resultLabel);
 
-// --- Result box ---
+
 const resultBox = document.createElement('div');
 resultBox.id = 'result';
 resultBox.textContent = 'Result Here ....';
